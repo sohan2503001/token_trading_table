@@ -297,7 +297,7 @@ export const TokenTable: React.FC = () => {
 
             {/* Scrollable body */}
             <div className="flex-1 min-h-0 overflow-y-auto relative">
-                <div className="h-full min-h-0 grid grid-cols-1 md:grid-cols-3 border-t border-border/20">
+                <div className="h-full min-h-0 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 border-t border-border/20">
                     <TokenColumn
                         title="New Pairs"
                         tokens={newPairs}
